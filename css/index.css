@@ -1,0 +1,115 @@
+/* Global variables */
+:root {
+	--primary-green: #A8F9C8;
+	--dark-green: #18C193;
+	--button-color: #1bd8a4;
+	--light-green: #44F389;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	color: #FFF !important;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+button:hover {
+    background-color: var(--light-green) !important;
+}
+
+/*--- Main Container ---*/
+
+.container-fluid {
+	width: 100%;
+	min-height: 660px;
+	background-color: var(--primary-green);
+} 
+
+.header {
+	width: 100%;
+	height: 140px;
+	background-color: var(--dark-green);
+	color: white !important;
+}
+
+.header h3 {
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+	padding-top: 50px;		
+}
+
+.std_btn,.staff_btn,.room_btn{
+	background-color: #18C193;
+	margin-top: 120px;
+	color: white
+}
+.std_btn {
+	margin-left: 220px;
+}
+
+.staff_btn {
+	margin-left: 105px;
+}
+.room_btn {
+	margin-left: -40px;
+}
+
+/*.col-md-4 {
+	margin-top: 150px !important;
+}
+.col1{
+		margin-left: 270px;
+}
+.col2{
+	margin-left: -165px;
+}
+.col3{
+	margin-left: -200px;	
+} */
+.btnDashboard {
+	background-color: var(--button-color);
+	border-radius: 0 !important;
+}
+
+table.table {
+	margin-top: 20px;
+}
+
+table tbody {
+	background-color: #FFF;
+}
+
+table tbody a {
+	color: var(--dark-green) !important;
+}
+
+.btnSubmit {
+	background-color: var(--button-color);
+	border-radius: 0 !important;
+}
+
+/*--- Form styles ---*/
+form {
+	margin-top: 20px;
+	margin-bottom: 0 !important;
+	padding-bottom: 15px;
+}
+
+form h5 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFF;
+	font-weight: 900;
+	margin-bottom: 25px;
+}
+
+form .btnSubmit {
+	background-color: var(--button-color);
+	border-radius: 0 !important;
+	color: #FFF;
+}
